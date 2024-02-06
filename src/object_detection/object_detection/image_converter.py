@@ -45,8 +45,6 @@ class ImageConverter(Node):
                 # Draw the bounding box on the image
                 if int(box.cls.cpu().numpy()) == 0:
                     cv2.rectangle(cv_image, (x1, y1), (x2, y2), color, 1)
-                x1, y1, x2, y2 = map(int, box.xywh[0].cpu().numpy())
-                image = cv2.line(image, x2, y2, BLUE, thickness)
 
         # quit()
         converted_msg = self.bridge.cv2_to_imgmsg(cv_image, "bgr8")
