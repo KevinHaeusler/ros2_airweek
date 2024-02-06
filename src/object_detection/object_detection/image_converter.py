@@ -6,8 +6,12 @@ import cv2
 import supervision as sv
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")
-mode = "detect"
+facemodel = YOLO(
+    "/home/kevin/ros2_airweek/src/object_detection/object_detection/yolov8n-face.pt"
+)
+
+model = YOLO("yolov8m-pose.pt")
+
 CONFIDENCE_THRESHOLD = 0.8
 GREEN = (0, 255, 0)
 BLUE = (255, 0, 0)
@@ -29,23 +33,26 @@ class ImageConverter(Node):
 
         # Perform inference
         results = model(cv_image)
+        faceresults = facemodel(cv_image)
 
-        boxes = results[0].boxes
-        if mode == "detect":
-            for box in boxes:
-                confidence_level = float(box.conf.cpu().numpy())
-                object_name = names[int(box.cls.cpu().numpy())]
-                x1, y1, x2, y2 = map(int, box.xyxy[0].cpu().numpy())
-                print(f"{x1} {y1} {x2} {y2}")
-                print(box)
+        keypoints = results[0].keypoints
+        boxes = faceresults[0].boxes
+        # for keypoint_set in keypoints:
+        # pose keypoints
+        #     print(results[0].keypoints)
+        #     for keypoint in keypoint_set:
+        #         x, y = map(int, keypoint.cpu().numpy())
+        # Draw keypoints
+        #         cv2.circle(cv_image, (x, y), 3, GREEN, -1)
+        for box in boxes:
+            x1, y1, x2, y2 = map(int, box.xyxy[0].cpu().numpy())
+            color = GREEN if int(box.cls.cpu().numpy()) == 0 else BLUE
 
-                # Choose color based on class
-                color = GREEN if int(box.cls.cpu().numpy()) == 0 else BLUE
+            # Draw the bounding box on the image
+            if int(box.cls.cpu().numpy()) == 0:
+                cv2.rectangle(cv_image, (x1, y1), (x2, y2), color, 1)
 
-                # Draw the bounding box on the image
-                if int(box.cls.cpu().numpy()) == 0:
-                    cv2.rectangle(cv_image, (x1, y1), (x2, y2), color, 1)
-
+            object_distance = names[int(box.cls.cpu().numpy())]
         # quit()
         converted_msg = self.bridge.cv2_to_imgmsg(cv_image, "bgr8")
         self.publisher.publish(converted_msg)
