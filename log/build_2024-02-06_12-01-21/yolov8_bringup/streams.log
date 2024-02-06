@@ -1,0 +1,23 @@
+[0.556s] Invoking command in '/home/kevin/ros2_airweek/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/yolov8_bringup:/home/kevin/ros2_airweek/install/yolov8_msgs:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble /usr/bin/cmake --build /home/kevin/ros2_airweek/build/yolov8_bringup -- -j32 -l32
+[0.575s] Invoked command in '/home/kevin/ros2_airweek/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/yolov8_bringup:/home/kevin/ros2_airweek/install/yolov8_msgs:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble /usr/bin/cmake --build /home/kevin/ros2_airweek/build/yolov8_bringup -- -j32 -l32
+[0.596s] Invoking command in '/home/kevin/ros2_airweek/build/yolov8_bringup': AMENT_PREFIX_PATH=/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/yolov8_bringup:/home/kevin/ros2_airweek/install/yolov8_msgs:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble /usr/bin/cmake --install /home/kevin/ros2_airweek/build/yolov8_bringup
+[0.603s] -- Install configuration: ""
+[0.603s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup//launch
+[0.604s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8_3d.launch.py
+[0.604s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup//launch/yolov8.launch.py
+[0.604s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/ament_index/resource_index/package_run_dependencies/yolov8_bringup
+[0.604s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/ament_index/resource_index/parent_prefix_path/yolov8_bringup
+[0.604s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.sh
+[0.604s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/environment/ament_prefix_path.dsv
+[0.604s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/environment/path.sh
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/environment/path.dsv
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/local_setup.bash
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/local_setup.sh
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/local_setup.zsh
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/local_setup.dsv
+[0.605s] -- Installing: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/package.dsv
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/ament_index/resource_index/packages/yolov8_bringup
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig.cmake
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/cmake/yolov8_bringupConfig-version.cmake
+[0.605s] -- Up-to-date: /home/kevin/ros2_airweek/install/yolov8_bringup/share/yolov8_bringup/package.xml
+[0.605s] Invoked command in '/home/kevin/ros2_airweek/build/yolov8_bringup' returned '0': AMENT_PREFIX_PATH=/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/yolov8_bringup:/home/kevin/ros2_airweek/install/yolov8_msgs:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevin/ros2_airweek/install/yolov8_ros:/home/kevin/ros2_airweek/install/object_detection:/opt/ros/humble /usr/bin/cmake --install /home/kevin/ros2_airweek/build/yolov8_bringup

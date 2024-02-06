@@ -1,6 +1,9 @@
 import rclpy
 import time
 from sensor_msgs.msg import Image
+from ultralytics import YOLO
+
+model = YOLO("yolov8n-pose.pt")  # Load an official Pose model
 
 data = list()
 

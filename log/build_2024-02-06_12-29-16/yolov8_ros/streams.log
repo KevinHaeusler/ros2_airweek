@@ -1,0 +1,24 @@
+[0.587s] Invoking command in '/home/kevin/ros2_airweek/src/yolov8_ros/yolov8_ros': PYTHONPATH=/home/kevin/ros2_airweek/build/yolov8_ros/prefix_override:/home/kevin/ros2_airweek/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/kevin/ros2_airweek/build/yolov8_ros/build install --record /home/kevin/ros2_airweek/build/yolov8_ros/install.log --single-version-externally-managed
+[0.725s] running egg_info
+[0.726s] writing ../../../build/yolov8_ros/yolov8_ros.egg-info/PKG-INFO
+[0.726s] writing dependency_links to ../../../build/yolov8_ros/yolov8_ros.egg-info/dependency_links.txt
+[0.726s] writing entry points to ../../../build/yolov8_ros/yolov8_ros.egg-info/entry_points.txt
+[0.726s] writing requirements to ../../../build/yolov8_ros/yolov8_ros.egg-info/requires.txt
+[0.726s] writing top-level names to ../../../build/yolov8_ros/yolov8_ros.egg-info/top_level.txt
+[0.726s] reading manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[0.727s] writing manifest file '../../../build/yolov8_ros/yolov8_ros.egg-info/SOURCES.txt'
+[0.727s] running build
+[0.727s] running build_py
+[0.727s] running install
+[0.727s] running install_lib
+[0.728s] running install_data
+[0.728s] running install_egg_info
+[0.729s] removing '/home/kevin/ros2_airweek/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.729s] Copying ../../../build/yolov8_ros/yolov8_ros.egg-info to /home/kevin/ros2_airweek/install/yolov8_ros/lib/python3.10/site-packages/yolov8_ros-0.0.0-py3.10.egg-info
+[0.730s] running install_scripts
+[0.745s] Installing debug_node script to /home/kevin/ros2_airweek/install/yolov8_ros/lib/yolov8_ros
+[0.746s] Installing detect_3d_node script to /home/kevin/ros2_airweek/install/yolov8_ros/lib/yolov8_ros
+[0.746s] Installing tracking_node script to /home/kevin/ros2_airweek/install/yolov8_ros/lib/yolov8_ros
+[0.746s] Installing yolov8_node script to /home/kevin/ros2_airweek/install/yolov8_ros/lib/yolov8_ros
+[0.746s] writing list of installed files to '/home/kevin/ros2_airweek/build/yolov8_ros/install.log'
+[0.754s] Invoked command in '/home/kevin/ros2_airweek/src/yolov8_ros/yolov8_ros' returned '0': PYTHONPATH=/home/kevin/ros2_airweek/build/yolov8_ros/prefix_override:/home/kevin/ros2_airweek/install/yolov8_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/yolov8_ros build --build-base /home/kevin/ros2_airweek/build/yolov8_ros/build install --record /home/kevin/ros2_airweek/build/yolov8_ros/install.log --single-version-externally-managed

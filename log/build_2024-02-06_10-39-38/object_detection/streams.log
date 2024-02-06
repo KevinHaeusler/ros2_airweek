@@ -1,0 +1,38 @@
+[1.412s] Invoking command in '/home/kevin/ros2_airweek/src/object_detection': PYTHONPATH=/home/kevin/ros2_airweek/build/object_detection/prefix_override:/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/kevin/ros2_airweek/build/object_detection/build install --record /home/kevin/ros2_airweek/build/object_detection/install.log --single-version-externally-managed
+[1.541s] running egg_info
+[1.541s] creating ../../build/object_detection/object_detection.egg-info
+[1.541s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[1.541s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[1.542s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[1.542s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[1.542s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[1.542s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[1.543s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[1.544s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[1.544s] running build
+[1.544s] running build_py
+[1.544s] creating /home/kevin/ros2_airweek/build/object_detection/build
+[1.544s] creating /home/kevin/ros2_airweek/build/object_detection/build/lib
+[1.544s] creating /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection
+[1.544s] copying object_detection/simple_bag_recorder.py -> /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection
+[1.544s] copying object_detection/__init__.py -> /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection
+[1.544s] running install
+[1.544s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.544s]   warnings.warn(
+[1.544s] running install_lib
+[1.545s] creating /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection
+[1.545s] copying /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection/simple_bag_recorder.py -> /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection
+[1.545s] copying /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection/__init__.py -> /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection
+[1.545s] byte-compiling /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/simple_bag_recorder.py to simple_bag_recorder.cpython-310.pyc
+[1.545s] byte-compiling /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+[1.546s] running install_data
+[1.546s] creating /home/kevin/ros2_airweek/install/object_detection/share/ament_index
+[1.546s] creating /home/kevin/ros2_airweek/install/object_detection/share/ament_index/resource_index
+[1.546s] creating /home/kevin/ros2_airweek/install/object_detection/share/ament_index/resource_index/packages
+[1.546s] copying resource/object_detection -> /home/kevin/ros2_airweek/install/object_detection/share/ament_index/resource_index/packages
+[1.546s] copying package.xml -> /home/kevin/ros2_airweek/install/object_detection/share/object_detection
+[1.546s] running install_egg_info
+[1.546s] Copying ../../build/object_detection/object_detection.egg-info to /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[1.547s] running install_scripts
+[1.558s] writing list of installed files to '/home/kevin/ros2_airweek/build/object_detection/install.log'
+[1.641s] Invoked command in '/home/kevin/ros2_airweek/src/object_detection' returned '0': PYTHONPATH=/home/kevin/ros2_airweek/build/object_detection/prefix_override:/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/kevin/ros2_airweek/build/object_detection/build install --record /home/kevin/ros2_airweek/build/object_detection/install.log --single-version-externally-managed

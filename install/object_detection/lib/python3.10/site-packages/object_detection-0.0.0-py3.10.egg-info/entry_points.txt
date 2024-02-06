@@ -1,0 +1,3 @@
+[console_scripts]
+image_converter = object_detection.image_converter:main
+
