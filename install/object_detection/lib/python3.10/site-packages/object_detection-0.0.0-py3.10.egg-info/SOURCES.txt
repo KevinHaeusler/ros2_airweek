@@ -11,6 +11,7 @@ setup.py
 object_detection/__init__.py
 object_detection/image_converter.py
 object_detection/simple_bag_recorder.py
+object_detection/test.py
 resource/object_detection
 test/test_copyright.py
 test/test_flake8.py
