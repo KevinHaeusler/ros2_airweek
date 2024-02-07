@@ -1,0 +1,29 @@
+[0.397s] Invoking command in '/home/kevin/ros2_airweek/src/object_detection': PYTHONPATH=/home/kevin/ros2_airweek/build/object_detection/prefix_override:/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/kevin/ros2_airweek/build/object_detection/build install --record /home/kevin/ros2_airweek/build/object_detection/install.log --single-version-externally-managed
+[0.518s] running egg_info
+[0.518s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[0.518s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[0.519s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[0.519s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[0.519s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[0.519s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.520s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.520s] running build
+[0.520s] running build_py
+[0.520s] copying object_detection/image_converter.py -> /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection
+[0.520s] running install
+[0.520s] running install_lib
+[0.520s] copying /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection/image_converter.py -> /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.521s] byte-compiling /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/image_converter.py to image_converter.cpython-310.pyc
+[0.521s] running install_data
+[0.521s]   File "/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/image_converter.py", line 52
+[0.521s]     model.predict(cv_image, save=True, imgsz=320,640)
+[0.521s]                                                     ^
+[0.521s] SyntaxError: positional argument follows keyword argument
+[0.521s] 
+[0.521s] running install_egg_info
+[0.522s] removing '/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.522s] Copying ../../build/object_detection/object_detection.egg-info to /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[0.522s] running install_scripts
+[0.532s] Installing image_converter script to /home/kevin/ros2_airweek/install/object_detection/lib/object_detection
+[0.532s] writing list of installed files to '/home/kevin/ros2_airweek/build/object_detection/install.log'
+[0.542s] Invoked command in '/home/kevin/ros2_airweek/src/object_detection' returned '0': PYTHONPATH=/home/kevin/ros2_airweek/build/object_detection/prefix_override:/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/kevin/ros2_airweek/build/object_detection/build install --record /home/kevin/ros2_airweek/build/object_detection/install.log --single-version-externally-managed
