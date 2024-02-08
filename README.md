@@ -33,6 +33,10 @@ cd object_detection
 sudo apt install ros-humble-rclpy ros-humble-sensor-msgs ros-humble-cv-bridge python3-numpy python3-colorsys 
 ```
 
+```bash
+pip3 install openpifpaf ultralytics numpy opencv-python
+```
+
 ### Run the Node
 
 ```bash
