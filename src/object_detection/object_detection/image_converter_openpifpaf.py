@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import Image, PointCloud2
 from cv_bridge import CvBridge
 import cv2
 import openpifpaf
@@ -13,11 +13,14 @@ class ImageConverter(Node):
         self.subscription = self.create_subscription(
             Image, "/theta_z1/rgb", self.listener_callback, 10
         )
+
         self.image_publisher = self.create_publisher(Image, "converted_image", 10)
         self.bridge = CvBridge()
 
         # Initialize OpenPifPaf predictor
         self.predictor = openpifpaf.Predictor(checkpoint="shufflenetv2k30")
+        # Placeholder for storing the last calculated distance
+        self.last_distance = None
 
     def listener_callback(self, data):
         cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")

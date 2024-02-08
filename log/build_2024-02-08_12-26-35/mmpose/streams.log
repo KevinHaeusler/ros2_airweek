@@ -1,0 +1,20 @@
+[0.613s] Invoking command in '/home/kevin/ros2_airweek/src/mmpose': PYTHONPATH=/home/kevin/ros2_airweek/build/mmpose/prefix_override:/home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mmpose build --build-base /home/kevin/ros2_airweek/build/mmpose/build install --record /home/kevin/ros2_airweek/build/mmpose/install.log --single-version-externally-managed
+[0.740s] running egg_info
+[0.740s] writing ../../build/mmpose/mmpose.egg-info/PKG-INFO
+[0.740s] writing dependency_links to ../../build/mmpose/mmpose.egg-info/dependency_links.txt
+[0.740s] writing entry points to ../../build/mmpose/mmpose.egg-info/entry_points.txt
+[0.740s] writing requirements to ../../build/mmpose/mmpose.egg-info/requires.txt
+[0.740s] writing top-level names to ../../build/mmpose/mmpose.egg-info/top_level.txt
+[0.741s] reading manifest file '../../build/mmpose/mmpose.egg-info/SOURCES.txt'
+[0.741s] writing manifest file '../../build/mmpose/mmpose.egg-info/SOURCES.txt'
+[0.741s] running build
+[0.741s] running build_py
+[0.741s] running install
+[0.742s] running install_lib
+[0.742s] running install_data
+[0.742s] running install_egg_info
+[0.743s] removing '/home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages/mmpose-0.0.0-py3.10.egg-info' (and everything under it)
+[0.743s] Copying ../../build/mmpose/mmpose.egg-info to /home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages/mmpose-0.0.0-py3.10.egg-info
+[0.743s] running install_scripts
+[0.753s] writing list of installed files to '/home/kevin/ros2_airweek/build/mmpose/install.log'
+[0.765s] Invoked command in '/home/kevin/ros2_airweek/src/mmpose' returned '0': PYTHONPATH=/home/kevin/ros2_airweek/build/mmpose/prefix_override:/home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mmpose build --build-base /home/kevin/ros2_airweek/build/mmpose/build install --record /home/kevin/ros2_airweek/build/mmpose/install.log --single-version-externally-managed

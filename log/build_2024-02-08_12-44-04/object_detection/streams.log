@@ -1,0 +1,25 @@
+[0.574s] Invoking command in '/home/kevin/ros2_airweek/src/object_detection': PYTHONPATH=/home/kevin/ros2_airweek/build/object_detection/prefix_override:/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/kevin/ros2_airweek/build/object_detection/build install --record /home/kevin/ros2_airweek/build/object_detection/install.log --single-version-externally-managed
+[0.705s] running egg_info
+[0.705s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[0.705s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[0.705s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[0.705s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[0.705s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[0.706s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.706s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.706s] running build
+[0.706s] running build_py
+[0.706s] copying object_detection/image_converter_openpifpaf.py -> /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection
+[0.707s] running install
+[0.707s] running install_lib
+[0.707s] copying /home/kevin/ros2_airweek/build/object_detection/build/lib/object_detection/image_converter_openpifpaf.py -> /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.707s] byte-compiling /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/image_converter_openpifpaf.py to image_converter_openpifpaf.cpython-310.pyc
+[0.708s] running install_data
+[0.708s] running install_egg_info
+[0.709s] removing '/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.709s] Copying ../../build/object_detection/object_detection.egg-info to /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[0.710s] running install_scripts
+[0.720s] Installing image_converter_openpifpaf script to /home/kevin/ros2_airweek/install/object_detection/lib/object_detection
+[0.720s] Installing image_converter_yolo script to /home/kevin/ros2_airweek/install/object_detection/lib/object_detection
+[0.720s] writing list of installed files to '/home/kevin/ros2_airweek/build/object_detection/install.log'
+[0.758s] Invoked command in '/home/kevin/ros2_airweek/src/object_detection' returned '0': PYTHONPATH=/home/kevin/ros2_airweek/build/object_detection/prefix_override:/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/kevin/ros2_airweek/build/object_detection/build install --record /home/kevin/ros2_airweek/build/object_detection/install.log --single-version-externally-managed
