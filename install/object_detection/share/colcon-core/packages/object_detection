@@ -1,1 +1,1 @@
-rclpy
+colorsys:cv2:cv_bridge:numpy:openpifpaf:rclpy:sensor_msg:ultralytis

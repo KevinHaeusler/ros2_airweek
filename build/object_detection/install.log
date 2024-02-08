@@ -1,13 +1,9 @@
 /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/image_converter_openpifpaf.py
-/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/simple_bag_recorder.py
 /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/image_converter_yolo.py
 /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py
-/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/test.py
 /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/__pycache__/image_converter_openpifpaf.cpython-310.pyc
-/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/__pycache__/simple_bag_recorder.cpython-310.pyc
 /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/__pycache__/image_converter_yolo.cpython-310.pyc
 /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/__pycache__/__init__.cpython-310.pyc
-/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/__pycache__/test.cpython-310.pyc
 /home/kevin/ros2_airweek/install/object_detection/share/ament_index/resource_index/packages/object_detection
 /home/kevin/ros2_airweek/install/object_detection/share/object_detection/package.xml
 /home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info/requires.txt
