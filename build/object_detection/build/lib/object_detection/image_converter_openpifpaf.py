@@ -28,14 +28,33 @@ class ImageConverter(Node):
 
         # Perform pose estimation with OpenPifPaf
         predictions, gt_anns, image_meta = self.predictor.numpy_image(image_rgb)
-
+        # Estimate overall distance
+        overall_distance = self.estimate_distance(predictions[0].data)
         # Draw poses on the image
         for pred in predictions:
             self.draw_pose(cv_image, pred)
 
+        # Map distances to keypoints
+        keypoint_distances = self.estimate_keypoint_distances(
+            predictions[0].data, overall_distance
+        )
         # Publish the OpenCV image as a ROS message
         converted_msg = self.bridge.cv2_to_imgmsg(cv_image, "bgr8")
         self.image_publisher.publish(converted_msg)
+        print("Keypoint distances:", keypoint_distances)
+        quit()
+
+    def estimate_keypoint_distances(self, keypoints, overall_distance):
+        keypoint_distances = {}
+        for idx, keypoint in enumerate(keypoints):
+            x, y, conf = keypoint
+            if conf > 0.5:  # Confidence threshold
+                # Calculate distance for each keypoint relative to overall distance
+                distance = overall_distance * (
+                    conf**2
+                )  # Adjust scaling factor as needed
+                keypoint_distances[idx] = distance
+        return keypoint_distances
 
     def estimate_distance(self, keypoints):
         # Constants
