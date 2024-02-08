@@ -19,7 +19,8 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            "image_converter = object_detection.image_converter:main",
+            "image_converter_openpifpaf = object_detection.image_converter_openpifpaf:main",
+            "image_converter_yolo = object_detection.image_converter_yolo:main",
         ],
     },
 )

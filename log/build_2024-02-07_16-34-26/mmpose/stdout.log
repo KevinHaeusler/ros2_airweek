@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/mmpose/mmpose.egg-info
+writing ../../build/mmpose/mmpose.egg-info/PKG-INFO
+writing dependency_links to ../../build/mmpose/mmpose.egg-info/dependency_links.txt
+writing entry points to ../../build/mmpose/mmpose.egg-info/entry_points.txt
+writing requirements to ../../build/mmpose/mmpose.egg-info/requires.txt
+writing top-level names to ../../build/mmpose/mmpose.egg-info/top_level.txt
+writing manifest file '../../build/mmpose/mmpose.egg-info/SOURCES.txt'
+reading manifest file '../../build/mmpose/mmpose.egg-info/SOURCES.txt'
+writing manifest file '../../build/mmpose/mmpose.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kevin/ros2_airweek/build/mmpose/build
+creating /home/kevin/ros2_airweek/build/mmpose/build/lib
+creating /home/kevin/ros2_airweek/build/mmpose/build/lib/mmpose
+copying mmpose/__init__.py -> /home/kevin/ros2_airweek/build/mmpose/build/lib/mmpose
+running install
+running install_lib
+creating /home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages/mmpose
+copying /home/kevin/ros2_airweek/build/mmpose/build/lib/mmpose/__init__.py -> /home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages/mmpose
+byte-compiling /home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages/mmpose/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kevin/ros2_airweek/install/mmpose/share/ament_index
+creating /home/kevin/ros2_airweek/install/mmpose/share/ament_index/resource_index
+creating /home/kevin/ros2_airweek/install/mmpose/share/ament_index/resource_index/packages
+copying resource/mmpose -> /home/kevin/ros2_airweek/install/mmpose/share/ament_index/resource_index/packages
+copying package.xml -> /home/kevin/ros2_airweek/install/mmpose/share/mmpose
+running install_egg_info
+Copying ../../build/mmpose/mmpose.egg-info to /home/kevin/ros2_airweek/install/mmpose/lib/python3.10/site-packages/mmpose-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kevin/ros2_airweek/build/mmpose/install.log'

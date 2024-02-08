@@ -1,0 +1,5 @@
+  File "/home/kevin/ros2_airweek/install/object_detection/lib/python3.10/site-packages/object_detection/image_converter.py", line 94
+    return distance_cm
+    ^^^^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+

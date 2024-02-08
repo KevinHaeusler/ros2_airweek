@@ -9,7 +9,8 @@ setup.py
 ../../build/object_detection/object_detection.egg-info/top_level.txt
 ../../build/object_detection/object_detection.egg-info/zip-safe
 object_detection/__init__.py
-object_detection/image_converter.py
+object_detection/image_converter_openpifpaf.py
+object_detection/image_converter_yolo.py
 object_detection/simple_bag_recorder.py
 object_detection/test.py
 resource/object_detection

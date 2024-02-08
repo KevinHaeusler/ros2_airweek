@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mmpose/mmpose.egg-info/PKG-INFO
+../../build/mmpose/mmpose.egg-info/SOURCES.txt
+../../build/mmpose/mmpose.egg-info/dependency_links.txt
+../../build/mmpose/mmpose.egg-info/entry_points.txt
+../../build/mmpose/mmpose.egg-info/requires.txt
+../../build/mmpose/mmpose.egg-info/top_level.txt
+../../build/mmpose/mmpose.egg-info/zip-safe
+mmpose/__init__.py
+resource/mmpose
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
