@@ -16,8 +16,11 @@ This ROS 2 package provides functionality for object detection using various met
 ```bash
 git clone <repository_url>
 cd object_detection
+colcon build
+source /install/setup.bash
 ```
 
+Fix the Filepath in image_converter_yolo.py
 
 
 ### Package Dependencies

@@ -7,9 +7,7 @@ from ultralytics import YOLO
 import colorsys
 
 
-facemodel = YOLO(
-    "/home/kevin/ros2_airweek/src/object_detection/object_detection/yolov8n-face.pt"
-)
+facemodel = YOLO("yolov8n-face.pt")
 model = YOLO("yolov8n-pose.pt")
 
 
